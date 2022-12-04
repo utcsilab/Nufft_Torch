@@ -1,5 +1,5 @@
 # Nufft_Torch
-PyTorch Implementation of NUFFT. Allows users to use track gradients for both input images and NUFFT coordinates. Based on SigPy.
+PyTorch Implementation of NUFFT. Allows users to use track gradients for both input images and NUFFT coordinates. Based on SigPy and https://github.com/tomer196/pytorch-nufft with changes to the adjoint to fix overlapping coordinate errors. 
 
 Used to for non-Cartesian motion correction here: https://github.com/utcsilab/motion_score_mri
 
